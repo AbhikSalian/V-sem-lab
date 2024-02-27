@@ -12,5 +12,5 @@ BEGIN{m=0;
 	}
 }
 END{printf("The no. of packets dropped =%d\n",m);
-    printf("the no.of packets dropped =%d\n",n);}
+    printf("the no.of packets received =%d\n",n);}
 
