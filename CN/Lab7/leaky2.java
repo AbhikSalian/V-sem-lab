@@ -49,6 +49,6 @@ public class leaky2
 			else
 				System.out.println(+i+"\t\t"+a[i]+"\t\t"+recv+"\t"+sent+"\t"+buck_rem);
 		}
+		in.close();
 	}
 }
- 
