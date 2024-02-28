@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class lab7
+public class leaky2
 {
 	public static void main(String[] args)
 	{

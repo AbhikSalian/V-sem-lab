@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.io.*;
 public class crc
 {
     public static void main(String[] args)
@@ -34,7 +33,7 @@ public class crc
             for(i=0;i<data.length;i++)
                 System.out.print(data[i]);
             System.out.println();
-            //check for input crc code
+            // check for input crc code
             System.out.print("Enter checksum code: ");
             message=sc.nextLine();
             System.out.print("Enter generator: ");
@@ -68,8 +67,5 @@ public class crc
                 System.out.println("Data stream is valid");
             else
                 System.out.println("Data streamn is invalid. CRC error occured");
-            
-        
-        
     }
 }

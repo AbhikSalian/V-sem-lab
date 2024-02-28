@@ -49,6 +49,7 @@ $ns at 0.1 "$n2 setdest 600 600 25"
 
 set tcp0 [new Agent/TCP]
 $ns attach-agent $n0 $tcp0
+
 set ftp0 [new Application/FTP]
 $ftp0 attach-agent $tcp0
 
@@ -84,4 +85,3 @@ exit 0
 
 $ns at 250 "finish"
 $ns run
-
