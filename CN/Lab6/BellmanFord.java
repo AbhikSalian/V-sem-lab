@@ -13,7 +13,7 @@ public class BellmanFord
 	public void BellmanFordEvaluation(int source,int A[][])
 	{
 		for (int node=1;node<=num_ver;node++)
-		{	
+		{
 			D[node]=MAX_VALUE;
 		}
 		D[source]=0;

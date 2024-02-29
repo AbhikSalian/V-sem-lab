@@ -7,7 +7,7 @@ $ns namtrace-all $nf
 set tf [open program1.tr w]
 $ns trace-all $tf
 
-proc finish {} {
+proc finish { } {
 global ns tf nf
 $ns flush-trace
 close $nf

@@ -2,11 +2,11 @@ BEGIN{m=0;
 	n=0;
 }
 {
-	if(S1=="d")
+	if($1=="d")
 	{
 		m++;
 	}
-	else if(S1=="r")
+	else if($1=="r")
 	{
 		n++;
 	}
